@@ -1,5 +1,24 @@
-1335033454
+1335225352
+About page	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 Application	C:/Users/Tom/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/Users/Tom/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Users/Tom/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+Contact page	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Contact page" do
+Help page	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Help page" do
+Home page	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Home page" do
 SampleApp	C:/Users/Tom/rails_projects/sample_app/config/application.rb	module SampleApp
+Static pages	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Static pages" do
+StaticPagesController	C:/Users/Tom/rails_projects/sample_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
+StaticPagesHelper	C:/Users/Tom/rails_projects/sample_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
+about	C:/Users/Tom/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def about
+contact	C:/Users/Tom/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def contact
+full_title	C:/Users/Tom/rails_projects/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
+full_title	C:/Users/Tom/rails_projects/sample_app/spec/support/utilities.rb	def full_title(page_title)
+help	C:/Users/Tom/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def help
+home	C:/Users/Tom/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def home
+should have the h1 'About Us'	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'About Us'" do
+should have the h1 'Contact'	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'Contact'" do
+should have the h1 'Help'	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'Help'" do
+should have the title 'About Us'	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'About Us'" do
+should have the title 'Contact'	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'Contact'" do
+should have the title 'Help'	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'Help'" do
