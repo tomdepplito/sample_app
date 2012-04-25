@@ -10,6 +10,9 @@ cursor_positions:
     :cursor_offset: 0
     :timestamp: 2012-04-23 19:28:46.332000 -04:00
   - :path: spec/support/utilities.rb
-    :cursor_offset: 175
-    :timestamp: 2012-04-23 19:54:48.788000 -04:00
+    :cursor_offset: 0
+    :timestamp: 2012-04-23 20:15:03.777000 -04:00
+  - :path: spec/helpers/application_helper_spec.rb
+    :cursor_offset: 0
+    :timestamp: 2012-04-24 20:28:59.714000 -04:00
 files_to_retain: 0

@@ -1,24 +1,30 @@
-1335225352
+1335385590
 About page	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 Application	C:/Users/Tom/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/Users/Tom/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Users/Tom/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
 Contact page	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Contact page" do
+CreateUsers	C:/Users/Tom/rails_projects/sample_app/db/migrate/20120425202433_create_users.rb	class CreateUsers 
 Help page	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Help page" do
 Home page	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Home page" do
 SampleApp	C:/Users/Tom/rails_projects/sample_app/config/application.rb	module SampleApp
 Static pages	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Static pages" do
 StaticPagesController	C:/Users/Tom/rails_projects/sample_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
 StaticPagesHelper	C:/Users/Tom/rails_projects/sample_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
+User	C:/Users/Tom/rails_projects/sample_app/app/models/user.rb	class User 
+User pages	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "User pages" do
+UsersController	C:/Users/Tom/rails_projects/sample_app/app/controllers/users_controller.rb	class UsersController 
+UsersHelper	C:/Users/Tom/rails_projects/sample_app/app/helpers/users_helper.rb	module UsersHelper
 about	C:/Users/Tom/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def about
+change	C:/Users/Tom/rails_projects/sample_app/db/migrate/20120425202433_create_users.rb	  def change
 contact	C:/Users/Tom/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def contact
 full_title	C:/Users/Tom/rails_projects/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
-full_title	C:/Users/Tom/rails_projects/sample_app/spec/support/utilities.rb	def full_title(page_title)
+full_title	C:/Users/Tom/rails_projects/sample_app/spec/helpers/application_helper_spec.rb	describe "full_title" do
 help	C:/Users/Tom/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	C:/Users/Tom/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def home
-should have the h1 'About Us'	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'About Us'" do
-should have the h1 'Contact'	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'Contact'" do
-should have the h1 'Help'	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'Help'" do
-should have the title 'About Us'	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'About Us'" do
-should have the title 'Contact'	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'Contact'" do
-should have the title 'Help'	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'Help'" do
+new	C:/Users/Tom/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
+should have the right links on the layout	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the right links on the layout" do
+should include the base name	C:/Users/Tom/rails_projects/sample_app/spec/helpers/application_helper_spec.rb	it "should include the base name" do
+should include the page name	C:/Users/Tom/rails_projects/sample_app/spec/helpers/application_helper_spec.rb	it "should include the page name" do
+should not include a bar for the home page	C:/Users/Tom/rails_projects/sample_app/spec/helpers/application_helper_spec.rb	it "should not include a bar for the home page" do
+signup page	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
