@@ -21,7 +21,10 @@ cursor_positions:
   - :path: spec/factories.rb
     :cursor_offset: 0
     :timestamp: 2012-04-26 18:42:43.679000 -04:00
+  - :path: app/views/sessions/new.html.erb
+    :cursor_offset: 50
+    :timestamp: 2012-04-27 20:33:21.887000 -04:00
   - :path: app/views/shared/_error_messages.html.erb
-    :cursor_offset: 317
-    :timestamp: 2012-04-26 19:25:01.646000 -04:00
+    :cursor_offset: 0
+    :timestamp: 2012-04-26 19:34:01.519000 -04:00
 files_to_retain: 0

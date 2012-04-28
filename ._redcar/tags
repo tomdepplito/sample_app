@@ -1,15 +1,18 @@
-1335482701
+1335573201
 About page	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddIndexToUsersEmail	C:/Users/Tom/rails_projects/sample_app/db/migrate/20120425213155_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	C:/Users/Tom/rails_projects/sample_app/db/migrate/20120425213743_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
 Application	C:/Users/Tom/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/Users/Tom/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Users/Tom/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+Authentication	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "Authentication" do
 Contact page	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Contact page" do
 CreateUsers	C:/Users/Tom/rails_projects/sample_app/db/migrate/20120425202433_create_users.rb	class CreateUsers 
 Help page	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Help page" do
 Home page	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Home page" do
 SampleApp	C:/Users/Tom/rails_projects/sample_app/config/application.rb	module SampleApp
+SessionsController	C:/Users/Tom/rails_projects/sample_app/app/controllers/sessions_controller.rb	class SessionsController 
+SessionsHelper	C:/Users/Tom/rails_projects/sample_app/app/helpers/sessions_helper.rb	module SessionsHelper
 Static pages	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Static pages" do
 StaticPagesController	C:/Users/Tom/rails_projects/sample_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
 StaticPagesHelper	C:/Users/Tom/rails_projects/sample_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
@@ -19,17 +22,22 @@ UsersController	C:/Users/Tom/rails_projects/sample_app/app/controllers/users_con
 UsersHelper	C:/Users/Tom/rails_projects/sample_app/app/helpers/users_helper.rb	module UsersHelper
 VALID_EMAIL_REGEX	C:/Users/Tom/rails_projects/sample_app/app/models/user.rb	  VALID_EMAIL_REGEX =
 about	C:/Users/Tom/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def about
+after saving the user	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "after saving the user" do
 change	C:/Users/Tom/rails_projects/sample_app/db/migrate/20120425213743_add_password_digest_to_users.rb	  def change
 change	C:/Users/Tom/rails_projects/sample_app/db/migrate/20120425213155_add_index_to_users_email.rb	  def change
 change	C:/Users/Tom/rails_projects/sample_app/db/migrate/20120425202433_create_users.rb	  def change
 contact	C:/Users/Tom/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def contact
 create	C:/Users/Tom/rails_projects/sample_app/app/controllers/users_controller.rb	  def create
+create	C:/Users/Tom/rails_projects/sample_app/app/controllers/sessions_controller.rb	  def create
+destroy	C:/Users/Tom/rails_projects/sample_app/app/controllers/sessions_controller.rb	  def destroy
+error messages	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "error messages" do
 full_title	C:/Users/Tom/rails_projects/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
 full_title	C:/Users/Tom/rails_projects/sample_app/spec/helpers/application_helper_spec.rb	describe "full_title" do
-gravatar_for	C:/Users/Tom/rails_projects/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user)
+gravatar_for	C:/Users/Tom/rails_projects/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user, options = { size: 50 })
 help	C:/Users/Tom/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	C:/Users/Tom/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def home
 new	C:/Users/Tom/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
+new	C:/Users/Tom/rails_projects/sample_app/app/controllers/sessions_controller.rb	  def new
 profile page	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "profile page" do
 return value of authenticate method	C:/Users/Tom/rails_projects/sample_app/spec/models/user_spec.rb	describe "return value of authenticate method" do
 should be invalid	C:/Users/Tom/rails_projects/sample_app/spec/models/user_spec.rb	it "should be invalid" do
@@ -41,6 +49,7 @@ should include the page name	C:/Users/Tom/rails_projects/sample_app/spec/helpers
 should not create a user	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	it "should not create a user" do
 should not include a bar for the home page	C:/Users/Tom/rails_projects/sample_app/spec/helpers/application_helper_spec.rb	it "should not include a bar for the home page" do
 show	C:/Users/Tom/rails_projects/sample_app/app/controllers/users_controller.rb	  def show
+signin page	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "signin page" do
 signup	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "signup" do
 signup page	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
 when email address is already taken	C:/Users/Tom/rails_projects/sample_app/spec/models/user_spec.rb	describe "when email address is already taken" do
