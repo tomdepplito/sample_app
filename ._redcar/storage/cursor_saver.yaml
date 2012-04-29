@@ -27,4 +27,16 @@ cursor_positions:
   - :path: app/views/shared/_error_messages.html.erb
     :cursor_offset: 0
     :timestamp: 2012-04-26 19:34:01.519000 -04:00
+  - :path: app/views/users/edit.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-04-29 16:06:39.133000 -04:00
+  - :path: app/views/users/index.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-04-29 17:42:50.148000 -04:00
+  - :path: lib/tasks/sample_data.rake
+    :cursor_offset: 587
+    :timestamp: 2012-04-29 17:47:10.147000 -04:00
+  - :path: app/views/users/_user.html.erb
+    :cursor_offset: 83
+    :timestamp: 2012-04-29 17:58:09.876000 -04:00
 files_to_retain: 0
