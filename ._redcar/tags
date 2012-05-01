@@ -1,5 +1,6 @@
-1335736721
+1335832058
 About page	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
+AddAdminToUsers	C:/Users/Tom/rails_projects/sample_app/db/migrate/20120429220110_add_admin_to_users.rb	class AddAdminToUsers 
 AddIndexToUsersEmail	C:/Users/Tom/rails_projects/sample_app/db/migrate/20120425213155_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	C:/Users/Tom/rails_projects/sample_app/db/migrate/20120425213743_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
 AddRememberTokenToUsers	C:/Users/Tom/rails_projects/sample_app/db/migrate/20120428010108_add_remember_token_to_users.rb	class AddRememberTokenToUsers 
@@ -8,9 +9,13 @@ ApplicationController	C:/Users/Tom/rails_projects/sample_app/app/controllers/app
 ApplicationHelper	C:/Users/Tom/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
 Authentication	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "Authentication" do
 Contact page	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Contact page" do
+CreateMicroposts	C:/Users/Tom/rails_projects/sample_app/db/migrate/20120430222457_create_microposts.rb	class CreateMicroposts 
 CreateUsers	C:/Users/Tom/rails_projects/sample_app/db/migrate/20120425202433_create_users.rb	class CreateUsers 
 Help page	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Help page" do
 Home page	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Home page" do
+Micropost	C:/Users/Tom/rails_projects/sample_app/app/models/micropost.rb	class Micropost 
+Micropost pages	C:/Users/Tom/rails_projects/sample_app/spec/requests/micropost_pages_spec.rb	describe "Micropost pages" do
+MicropostsController	C:/Users/Tom/rails_projects/sample_app/app/controllers/microposts_controller.rb	class MicropostsController 
 SampleApp	C:/Users/Tom/rails_projects/sample_app/config/application.rb	module SampleApp
 SessionsController	C:/Users/Tom/rails_projects/sample_app/app/controllers/sessions_controller.rb	class SessionsController 
 SessionsHelper	C:/Users/Tom/rails_projects/sample_app/app/helpers/sessions_helper.rb	module SessionsHelper
@@ -23,69 +28,101 @@ UsersController	C:/Users/Tom/rails_projects/sample_app/app/controllers/users_con
 UsersHelper	C:/Users/Tom/rails_projects/sample_app/app/helpers/users_helper.rb	module UsersHelper
 VALID_EMAIL_REGEX	C:/Users/Tom/rails_projects/sample_app/app/models/user.rb	  VALID_EMAIL_REGEX =
 about	C:/Users/Tom/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def about
+accessible attributes	C:/Users/Tom/rails_projects/sample_app/spec/models/micropost_spec.rb	describe "accessible attributes" do
+admin_user	C:/Users/Tom/rails_projects/sample_app/app/controllers/users_controller.rb		def admin_user
 after saving the user	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "after saving the user" do
 after signing in	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "after signing in" do
 after visiting another page	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "after visiting another page" do
+as an admin user	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "as an admin user" do
+as non-admin user	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "as non-admin user" do
 as wrong user	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "as wrong user" do
 authorization	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "authorization" do
 change	C:/Users/Tom/rails_projects/sample_app/db/migrate/20120425213743_add_password_digest_to_users.rb	  def change
 change	C:/Users/Tom/rails_projects/sample_app/db/migrate/20120425213155_add_index_to_users_email.rb	  def change
 change	C:/Users/Tom/rails_projects/sample_app/db/migrate/20120425202433_create_users.rb	  def change
 change	C:/Users/Tom/rails_projects/sample_app/db/migrate/20120428010108_add_remember_token_to_users.rb	  def change
+change	C:/Users/Tom/rails_projects/sample_app/db/migrate/20120430222457_create_microposts.rb	  def change
+change	C:/Users/Tom/rails_projects/sample_app/db/migrate/20120429220110_add_admin_to_users.rb	  def change
 clear_return_to	C:/Users/Tom/rails_projects/sample_app/app/helpers/sessions_helper.rb		def clear_return_to
 contact	C:/Users/Tom/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def contact
 correct_user	C:/Users/Tom/rails_projects/sample_app/app/controllers/users_controller.rb	    def correct_user
 correct_user	C:/Users/Tom/rails_projects/sample_app/app/controllers/users_controller.rb	    def correct_user
 create	C:/Users/Tom/rails_projects/sample_app/app/controllers/sessions_controller.rb	  def create
 create	C:/Users/Tom/rails_projects/sample_app/app/controllers/users_controller.rb	  def create
+create	C:/Users/Tom/rails_projects/sample_app/app/controllers/microposts_controller.rb	  def create
 create_remember_token	C:/Users/Tom/rails_projects/sample_app/app/models/user.rb	    def create_remember_token
 current_user	C:/Users/Tom/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def current_user
 current_user?	C:/Users/Tom/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def current_user?(user)
+delete links	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "delete links" do
 destroy	C:/Users/Tom/rails_projects/sample_app/app/controllers/sessions_controller.rb	  def destroy
-edit	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "edit" do
+destroy	C:/Users/Tom/rails_projects/sample_app/app/controllers/users_controller.rb	  def destroy
+destroy	C:/Users/Tom/rails_projects/sample_app/app/controllers/microposts_controller.rb	  def destroy
 edit	C:/Users/Tom/rails_projects/sample_app/app/controllers/users_controller.rb	  def edit
+edit	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "edit" do
 error messages	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "error messages" do
+error messages	C:/Users/Tom/rails_projects/sample_app/spec/requests/micropost_pages_spec.rb	describe "error messages" do
+feed	C:/Users/Tom/rails_projects/sample_app/app/models/user.rb	  def feed
 followed by signout	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "followed by signout" do
 for non-signed-in users	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "for non-signed-in users" do
+for signed-in users	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "for signed-in users" do
 full_title	C:/Users/Tom/rails_projects/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
 full_title	C:/Users/Tom/rails_projects/sample_app/spec/helpers/application_helper_spec.rb	describe "full_title" do
 gravatar_for	C:/Users/Tom/rails_projects/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user, options = { size: 50 })
 help	C:/Users/Tom/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	C:/Users/Tom/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def home
+in the Microposts controller	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "in the Microposts controller" do
 in the Users controller	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "in the Users controller" do
-index	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "index" do
 index	C:/Users/Tom/rails_projects/sample_app/app/controllers/users_controller.rb	  def index
+index	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "index" do
+micropost associations	C:/Users/Tom/rails_projects/sample_app/spec/models/user_spec.rb	describe "micropost associations" do
+micropost associations	C:/Users/Tom/rails_projects/sample_app/spec/models/user_spec.rb	describe "micropost associations" do
+micropost creation	C:/Users/Tom/rails_projects/sample_app/spec/requests/micropost_pages_spec.rb	describe "micropost creation" do
+microposts	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "microposts" do
 new	C:/Users/Tom/rails_projects/sample_app/app/controllers/sessions_controller.rb	  def new
 new	C:/Users/Tom/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
 page	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "page" do
 pagination	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "pagination" do
 profile page	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "profile page" do
+profile page	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "profile page" do
 redirect_back_or	C:/Users/Tom/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def redirect_back_or(default)
 remember token	C:/Users/Tom/rails_projects/sample_app/spec/models/user_spec.rb	describe "remember token" do
 return value of authenticate method	C:/Users/Tom/rails_projects/sample_app/spec/models/user_spec.rb	describe "return value of authenticate method" do
+should be able to delete another user	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	it "should be able to delete another user" do
 should be invalid	C:/Users/Tom/rails_projects/sample_app/spec/models/user_spec.rb	it "should be invalid" do
 should be valid	C:/Users/Tom/rails_projects/sample_app/spec/models/user_spec.rb	it "should be valid" do
+should create a micropost	C:/Users/Tom/rails_projects/sample_app/spec/requests/micropost_pages_spec.rb	it "should create a micropost" do
 should create a user	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	it "should create a user" do
+should destroy associated microposts	C:/Users/Tom/rails_projects/sample_app/spec/models/user_spec.rb	it "should destroy associated microposts" do
 should have the right links on the layout	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the right links on the layout" do
+should have the right microposts in the right order	C:/Users/Tom/rails_projects/sample_app/spec/models/user_spec.rb	it "should have the right microposts in the right order" do
 should include the base name	C:/Users/Tom/rails_projects/sample_app/spec/helpers/application_helper_spec.rb	it "should include the base name" do
 should include the page name	C:/Users/Tom/rails_projects/sample_app/spec/helpers/application_helper_spec.rb	it "should include the page name" do
 should list each user	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	it "should list each user" do
+should not allow access to user_id	C:/Users/Tom/rails_projects/sample_app/spec/models/micropost_spec.rb	it "should not allow access to user_id" do
+should not create a micropost	C:/Users/Tom/rails_projects/sample_app/spec/requests/micropost_pages_spec.rb	it "should not create a micropost" do
 should not create a user	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	it "should not create a user" do
 should not include a bar for the home page	C:/Users/Tom/rails_projects/sample_app/spec/helpers/application_helper_spec.rb	it "should not include a bar for the home page" do
 should render the desired protected page	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	it "should render the desired protected page" do
+should render the user's feed	C:/Users/Tom/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should render the user's feed" do
 show	C:/Users/Tom/rails_projects/sample_app/app/controllers/users_controller.rb	  def show
+show	C:/Users/Tom/rails_projects/sample_app/app/controllers/users_controller.rb		 def show
 sign_in	C:/Users/Tom/rails_projects/sample_app/spec/support/utilities.rb	def sign_in(user)
 sign_in	C:/Users/Tom/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def sign_in(user)
 sign_out	C:/Users/Tom/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def sign_out
 signed_in?	C:/Users/Tom/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def signed_in?
+signed_in_user	C:/Users/Tom/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def signed_in_user
 signed_in_user	C:/Users/Tom/rails_projects/sample_app/app/controllers/users_controller.rb	    def signed_in_user
 signed_in_user	C:/Users/Tom/rails_projects/sample_app/app/controllers/users_controller.rb	    def signed_in_user
 signin	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "signin" do
 signin page	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "signin page" do
 signup	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "signup" do
 signup page	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
+status	C:/Users/Tom/rails_projects/sample_app/spec/models/user_spec.rb	describe "status" do
 store_location	C:/Users/Tom/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def store_location
+submitting a DELETE request to the Users#destroy action	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "submitting a DELETE request to the Users#destroy action" do
 submitting a PUT request to the Users#update action	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "submitting a PUT request to the Users#update action" do
+submitting to the create action	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "submitting to the create action" do
+submitting to the destroy action	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "submitting to the destroy action" do
 submitting to the update action	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "submitting to the update action" do
 update	C:/Users/Tom/rails_projects/sample_app/app/controllers/users_controller.rb	  def update
 user_from_remember_token	C:/Users/Tom/rails_projects/sample_app/app/helpers/sessions_helper.rb	    def user_from_remember_token
@@ -101,11 +138,18 @@ when name is too long	C:/Users/Tom/rails_projects/sample_app/spec/models/user_sp
 when password confirmation is nil	C:/Users/Tom/rails_projects/sample_app/spec/models/user_spec.rb	describe "when password confirmation is nil" do
 when password doesn't match confirmation	C:/Users/Tom/rails_projects/sample_app/spec/models/user_spec.rb	describe "when password doesn't match confirmation" do
 when password is not present	C:/Users/Tom/rails_projects/sample_app/spec/models/user_spec.rb	describe "when password is not present" do
+when user_id is not present	C:/Users/Tom/rails_projects/sample_app/spec/models/micropost_spec.rb	describe "when user_id is not present" do
+when user_id is not present	C:/Users/Tom/rails_projects/sample_app/spec/models/micropost_spec.rb	describe "when user_id is not present" do
 with a password that's too short	C:/Users/Tom/rails_projects/sample_app/spec/models/user_spec.rb	describe "with a password that's too short" do
+with admin attribute set to 'true'	C:/Users/Tom/rails_projects/sample_app/spec/models/user_spec.rb	describe "with admin attribute set to 'true'" do
+with blank content	C:/Users/Tom/rails_projects/sample_app/spec/models/micropost_spec.rb	describe "with blank content" do
+with content that is too long	C:/Users/Tom/rails_projects/sample_app/spec/models/micropost_spec.rb	describe "with content that is too long" do
 with invalid information	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "with invalid information" do
 with invalid information	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
+with invalid information	C:/Users/Tom/rails_projects/sample_app/spec/requests/micropost_pages_spec.rb	describe "with invalid information" do
 with invalid password	C:/Users/Tom/rails_projects/sample_app/spec/models/user_spec.rb	describe "with invalid password" do
 with valid information	C:/Users/Tom/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "with valid information" do
 with valid information	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
 with valid information	C:/Users/Tom/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
+with valid information	C:/Users/Tom/rails_projects/sample_app/spec/requests/micropost_pages_spec.rb	describe "with valid information" do
 with valid password	C:/Users/Tom/rails_projects/sample_app/spec/models/user_spec.rb	describe "with valid password" do

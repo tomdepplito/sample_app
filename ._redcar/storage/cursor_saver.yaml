@@ -39,4 +39,16 @@ cursor_positions:
   - :path: app/views/users/_user.html.erb
     :cursor_offset: 83
     :timestamp: 2012-04-29 17:58:09.876000 -04:00
+  - :path: app/views/microposts/_micropost.html.erb
+    :cursor_offset: 171
+    :timestamp: 2012-04-30 19:05:48.306000 -04:00
+  - :path: app/views/shared/_user_info.html.erb
+    :cursor_offset: 282
+    :timestamp: 2012-04-30 19:32:29.331000 -04:00
+  - :path: app/views/shared/_micropost_form.html.erb
+    :cursor_offset: 273
+    :timestamp: 2012-04-30 19:34:06.060000 -04:00
+  - :path: app/views/shared/_feed.html.erb
+    :cursor_offset: 180
+    :timestamp: 2012-04-30 20:27:38.309000 -04:00
 files_to_retain: 0
