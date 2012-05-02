@@ -51,4 +51,7 @@ cursor_positions:
   - :path: app/views/shared/_feed.html.erb
     :cursor_offset: 180
     :timestamp: 2012-04-30 20:27:38.309000 -04:00
+  - :path: app/views/shared/_stats.html.erb
+    :cursor_offset: 390
+    :timestamp: 2012-05-02 07:46:21.951000 -04:00
 files_to_retain: 0
